@@ -1,0 +1,4 @@
+*.keystore
+/obj
+/Library
+/notIncluded

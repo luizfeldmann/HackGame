@@ -1,0 +1,29 @@
+#LEVEL
+NODE	NT_Firewall	105	NS_Visible	-1	1
+NODE	NT_Output	60	NS_Visible	-2	-2
+NODE	NT_Dir	30	NS_Visible	0	-4
+NODE	NT_Output	60	NS_Visible	2	2
+NODE	NT_Dir	30	NS_Visible	4	0
+NODE	NT_Input	0	NS_Active	2	-2
+NODE	NT_Dir	15	NS_Active	2	-5
+NODE	NT_Dir	15	NS_Active	5	-2
+NODE	NT_Dir	30	NS_Visible	-4	0
+NODE	NT_Dir	30	NS_Visible	0	4
+NODE	NT_Permission	15	NS_Visible	-3	3
+NODE	NT_Storage	45	NS_Visible	-4	-4
+NODE	NT_Spam	45	NS_Visible	4	4
+CONN	5	6
+CONN	5	7
+CONN	7	4
+CONN	6	2
+CONN	2	0
+CONN	4	0
+CONN	2	11
+CONN	4	12
+CONN	11	8
+CONN	12	9
+CONN	8	10
+CONN	10	9
+CONN	8	1
+CONN	9	3
+#END

@@ -1,0 +1,11 @@
+#LEVEL
+NODE	NT_Output	45	NS_Visible	0	-3
+NODE	NT_Input	30	NS_Active	0	0
+NODE	NT_Firewall	0	NS_Visible	0	3
+NODE	NT_Dir	15	NS_Active	-3	0
+NODE	NT_Dir	15	NS_Active	3	0
+CONN	0	3
+CONN	3	1
+CONN	1	4
+CONN	4	2
+#END
